@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.firstapp.firstapp.Second">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margim_padrao_app"
+        android:layout_marginRight="@dimen/margim_padrao_app"
+        android:layout_marginLeft="@dimen/margim_padrao_app">
+
+        <TextView
+            android:id="@+id/tvNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_padrao_app"
+            android:textColor="@color/color_font"
+            android:text="@string/nome" />
+        <TextView
+            android:id="@+id/reNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_padrao_app"
+            android:textColor="@color/color_edit" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margim_padrao_app"
+        android:layout_marginRight="@dimen/margim_padrao_app"
+        android:layout_marginLeft="@dimen/margim_padrao_app">
+
+        <TextView
+            android:id="@+id/tvDtnasc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_padrao_app"
+            android:textColor="@color/color_font"
+            android:text="@string/dt_nasc" />
+        <TextView
+            android:id="@+id/reDtnasc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_padrao_app"
+            android:textColor="@color/color_edit" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margim_padrao_app"
+        android:layout_marginRight="@dimen/margim_padrao_app"
+        android:layout_marginLeft="@dimen/margim_padrao_app">
+
+        <TextView
+            android:id="@+id/tvSexo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_padrao_app"
+            android:textColor="@color/color_font"
+            android:text="@string/sexo"/>
+        <TextView
+            android:id="@+id/reSexo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_padrao_app"
+            android:textColor="@color/color_edit" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margim_padrao_app"
+        android:layout_marginRight="@dimen/margim_padrao_app"
+        android:layout_marginLeft="@dimen/margim_padrao_app">
+
+        <TextView
+            android:id="@+id/tvCpf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_padrao_app"
+            android:textColor="@color/color_font"
+            android:text="@string/cpf" />
+        <TextView
+            android:id="@+id/reCpf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_padrao_app"
+            android:textColor="@color/color_edit" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margim_padrao_app"
+        android:layout_marginRight="@dimen/margim_padrao_app"
+        android:layout_marginLeft="@dimen/margim_padrao_app">
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_padrao_app"
+            android:textColor="@color/color_font"
+            android:text="@string/email"/>
+        <TextView
+            android:id="@+id/reEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_padrao_app"
+            android:textColor="@color/color_edit" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margim_padrao_app"
+        android:layout_marginRight="@dimen/margim_padrao_app"
+        android:layout_marginLeft="@dimen/margim_padrao_app">
+
+        <TextView
+            android:id="@+id/tvTel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_padrao_app"
+            android:textColor="@color/color_font"
+            android:text="@string/numtele"/>
+        <TextView
+            android:id="@+id/reTel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_padrao_app"
+            android:textColor="@color/color_edit" />
+    </LinearLayout>
+</LinearLayout>

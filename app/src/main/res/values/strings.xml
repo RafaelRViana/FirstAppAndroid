@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+    <string name="nome">Nome:</string>
+    <string name="dt_nasc">Data de nascimento:</string>
+    <string name="sexo">Sexo:</string>
+    <string name="rmasc">Masculino</string>
+    <string name="rfem">Feminino</string>
+    <string name="cpf">CPF:</string>
+    <string name="email">E-mail:</string>
+    <string name="numtele">Telefone:</string>
+    <string name="enviar">Enviar</string>
+
+</resources>
